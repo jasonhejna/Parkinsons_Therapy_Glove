@@ -1,0 +1,10 @@
+﻿Designator,Device,Footprint,Mid X,Mid Y,Ref X,Ref Y,Pad X,Pad Y,Layer,Rotation,SMD,Comment
+"U1"	,"SM02B-SURS-TF(LF)(SN)"	,"CONN-SMD_SM02B-SURS-TF-LF-SN"	,"56.007mm"	,"-3.048mm"	,"56.007mm"	,"-3.048mm"	,"56.407mm"	,"-3.948mm"	,"T"	,"180"	,"Yes"	,"SM02B-SURS-TF(LF)(SN)"	,
+"U2"	,"SM02B-SURS-TF(LF)(SN)"	,"CONN-SMD_SM02B-SURS-TF-LF-SN"	,"40.09mm"	,"-3.048mm"	,"40.09mm"	,"-3.048mm"	,"40.49mm"	,"-3.948mm"	,"T"	,"180"	,"Yes"	,"SM02B-SURS-TF(LF)(SN)"	,
+"U3"	,"SM02B-SURS-TF(LF)(SN)"	,"CONN-SMD_SM02B-SURS-TF-LF-SN"	,"24.172mm"	,"-3.048mm"	,"24.172mm"	,"-3.048mm"	,"24.572mm"	,"-3.948mm"	,"T"	,"180"	,"Yes"	,"SM02B-SURS-TF(LF)(SN)"	,
+"U4"	,"SM02B-SURS-TF(LF)(SN)"	,"CONN-SMD_SM02B-SURS-TF-LF-SN"	,"8.255mm"	,"-3.048mm"	,"8.255mm"	,"-3.048mm"	,"8.655mm"	,"-3.948mm"	,"T"	,"180"	,"Yes"	,"SM02B-SURS-TF(LF)(SN)"	,
+"RJ2"	,"MJ5688-B111-HR1-C"	,"RJ45-TH_MJ5688-B111-HR1-C"	,"32.258mm"	,"-19.431mm"	,"32.258mm"	,"-19.431mm"	,"35.828mm"	,"-14.441mm"	,"T"	,"0"	,"Yes"	,"MJ5688-B111-HR1-C"	,
+"D2"	,"1N4148WS"	,"SOD-323_L1.8-W1.3-LS2.5-RD"	,"56.007mm"	,"-6.604mm"	,"56.007mm"	,"-6.604mm"	,"54.834mm"	,"-6.604mm"	,"T"	,"0"	,"Yes"	,"1N4148WS T4"	,
+"D1"	,"1N4148WS"	,"SOD-323_L1.8-W1.3-LS2.5-RD"	,"40.005mm"	,"-6.604mm"	,"40.005mm"	,"-6.604mm"	,"38.832mm"	,"-6.604mm"	,"T"	,"0"	,"Yes"	,"1N4148WS T4"	,
+"D3"	,"1N4148WS"	,"SOD-323_L1.8-W1.3-LS2.5-RD"	,"24.257mm"	,"-6.604mm"	,"24.257mm"	,"-6.604mm"	,"23.084mm"	,"-6.604mm"	,"T"	,"0"	,"Yes"	,"1N4148WS T4"	,
+"D4"	,"1N4148WS"	,"SOD-323_L1.8-W1.3-LS2.5-RD"	,"8.382mm"	,"-6.604mm"	,"8.382mm"	,"-6.604mm"	,"7.209mm"	,"-6.604mm"	,"T"	,"0"	,"Yes"	,"1N4148WS T4"	,
