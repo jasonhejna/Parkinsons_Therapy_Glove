@@ -1,5 +1,5 @@
 # Parkinsons_Therapy_Glove
-I have reverse-engineered the Stanford Vibrotactile Coordinated Reset (vCR) Glove. I'm putting these engineering designs for a wearable device into the world for anyone to use. Use at your own risk!
+Open Source Hardware design for Vibrotactile Coordinated Reset (vCR) Gloves. I'm putting these engineering designs for a wearable device into the world for anyone to use. Use at your own risk!
 
 ![open source hardware logo](Photos/oshw-logo-100-px.webp)
 
@@ -11,20 +11,17 @@ Abnormal synchronization of neuronal activity in dopaminergic circuits is relate
 
 Vibrotactile Coordinated Reset delivers vibratory stimulation to the fingertips of each hand. A specific pattern of vibration to each fingertip is delivered which theoretically disrupts abnormal synchrony in the brain.
 
-I reverse-engineered the Stanford Vibrotactile Coordinated Reset (vCR) Glove. This project provides instructions to build your own vCR Glove. Including Bill of Materials, Instructions, CAD Files, Circuit Board design files, and Firmware.
-
-This source code is licensed under the Apache-2.0 license found in the LICENSE file in the root directory of this source tree.
-
-This project should be considered Open Source Hardware. You are free to use and modify any of the content herein. Use at your own risk!
+This project provides instructions to build your own vCR Glove. Including Bill of Materials, Instructions, CAD Files, Circuit Board design files, and Firmware.
 
 # Control Box
 
 ![Project Photo](Photos/control_box_side.jpg)
+![Project Photo](Photos/control_box_top.jpg)
 ![Project Photo](Photos/control_box_bottom.jpg)
 ![Project Photo](Photos/circuit_board.jpg)
 
 ## Build Steps
-1) You will need to have a manufacturer create the Printed Circuit Boards (PCB). Upload the Gerber file: Control_Box\Electronics\Control_Box_Gerber.zip.  I recommend having your circuit board assembled with all the components. Use the PickAndPlace, and BOM files for assembly. I used JLCPCB.com.
+1) You will need to have a manufacturer create the Printed Circuit Boards (PCB). Upload the Gerber file to the manufacturer: Control_Box\Electronics\Control_Box_Gerber.zip.  I recommend having your circuit board assembled with all the components. Use the PickAndPlace, and BOM files for assembly. JLCPCB.com is a good choice for manufacturer.
 2) You will also need to order parts. See the Bill of Materials.
 3) You will need to solder on the Feather Microcontroller, Screen, and Boost Converter. These parts are easy to solder 2.54 through hole components.
 4) You will need to solder on the switch to the two pins labeled EN+ and EN-.
@@ -52,8 +49,8 @@ Note: the battery is necessary for operation.
 ![Project Photo](Photos/gloves_detail.jpg)
 
 ## Build Steps
-1) You will need to send the Printed Circuit Board (PCB) design files to a manufacturer. I recommend having your circuit board assembled with all the components. Upload the Gerber file (Glove_Hardware/Electronics/Glove_Gerber.zip) when prompted for a Gerber file.
-2) Create cables by soldering or crimping the JST Cables onto the ERM Vibration Motor cables. You will need to make 8 cable/motor assemblies.
+1) You will need to send the Printed Circuit Board (PCB) design files to a manufacturer. I recommend having your circuit board assembled with all the components. Upload the Gerber file to the manufacturer (Glove_Hardware/Electronics/Glove_Gerber.zip).
+2) Create cables by soldering or crimping the JST Cables onto the ERM Vibration Motor cables. You will need to make eight cable/motor assemblies.
 3) Create the motor/finger mounts. This uses double sided velcro stips. The ERM Vibration Motor and cable is placed between two strips, and sewed at the ends. A third piece of velcro strip is used around the finger to ensure a snug fit. You will need to make 8 motor/finger mounts.
 4) Cut and attach velcro strips to the glove so that they align with each finger on the glove. Recommend sewing the velcro strips to the gloves, and using adhesive.
 5) Leaving extra length for hand movements. Using 1/2-inch Paracord, sew the circuit board to the gloves.
@@ -92,7 +89,7 @@ Note: the battery is necessary for operation.
 |Display Case|8x8x12 inch 20x20x30 cm|1|KOLIPI|https://www.amazon.com/dp/B0B3WMXPKL?ref=ppx_yo2ov_dt_b_product_details&th=1|
 
 # Editors
-You may copy and edit the Electronic design files using a PCB editing software called easyEDA. This project can be accessed on EasyEDA at: https://pro.easyeda.com/editor#id=4203400eb7db434e9a89eb5de0ddfd4a
+You may edit the Electronic design files using a PCB editing software called easyEDA. This project can be accessed on EasyEDA at: https://pro.easyeda.com/editor#id=4203400eb7db434e9a89eb5de0ddfd4a
 
 # Attribution
 
@@ -117,5 +114,13 @@ Thank you
 This source code is licensed under the Apache-2.0 license found in the LICENSE file in the root directory of this source tree.
 
 This project should be considered Open Source Hardware. You are free to use and modify any of the content herein. Use at your own risk!
+
+This source code is licensed under the Apache-2.0 license found in the LICENSE file in the root directory of this source tree. This project should be considered Open Source Hardware. You are free to use and modify any of the content herein.
+
+Unless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.
+
+To the extent possible, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, special, indirect, incidental, consequential, punitive, exemplary, or other losses, costs, expenses, or damages arising out of this Public License or use of the Licensed Material, even if the Licensor has been advised of the possibility of such losses, costs, expenses, or damages. Where a limitation of liability is not allowed in full or in part, this limitation may not apply to You.
+
+The disclaimer of warranties and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.
 
 ![open source hardware logo](Photos/oshw-logo-100-px.webp)
