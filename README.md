@@ -1,5 +1,5 @@
 # Parkinsons_Therapy_Glove
-Open Source Hardware design for Vibrotactile Coordinated Reset (vCR) Gloves. I'm putting these engineering designs for a wearable device into the world for anyone to use. Use at your own risk!
+Open Source Hardware design for Vibrotactile Coordinated Reset (vCR) Gloves.
 
 ![open source hardware logo](Photos/oshw-logo-100-px.webp)
 
@@ -19,6 +19,9 @@ This project provides instructions to build your own vCR Glove. Including Bill o
 ![Project Photo](Photos/control_box_top.jpg)
 ![Project Photo](Photos/control_box_bottom.jpg)
 ![Project Photo](Photos/circuit_board.jpg)
+![Project Photo](Photos/control_box_assembly1.png)
+![Project Photo](Photos/control_box_assembly2.png)
+![Project Photo](Photos/control_circuit_board.png)
 
 ## Build Steps
 1) You will need to have a manufacturer create the Printed Circuit Boards (PCB). Upload the Gerber file to the manufacturer: Control_Box\Electronics\Control_Box_Gerber.zip.  I recommend having your circuit board assembled with all the components. Use the PickAndPlace, and BOM files for assembly. JLCPCB.com is a good choice for manufacturer.
@@ -39,7 +42,8 @@ This project provides instructions to build your own vCR Glove. Including Bill o
 |0.91 inch OLED LCD Display 128x32|SSD1306|1|Teyleten|https://www.amazon.com/Teyleten-Robot-Display-SSD1306-Raspberry/dp/B08ZY4YBHL/ref=asc_df_B08ZY4YBHL/?tag=hyprod-20&linkCode=df0&hvadid=647248209079&hvpos=&hvnetw=g&hvrand=3522876089040420258&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9010937&hvtargid=pla-1597285851745&psc=1&region_id=972485&gclid=CjwKCAiArY2fBhB9EiwAWqHK6iJZr7Km3gjcYjdACghR9q-pTSBiGfFTmBRAXwzSj8zmCsqIJq6RdxoCsYEQAvD_BwE
 |Arduino based Feather Microcontroller|2772|1|Adafruit|https://www.adafruit.com/product/2772|
 |Battery|2011|1|Adafruit|https://www.adafruit.com/product/2011|
-|Double Sided Adhesive|||||
+|Screws for holding the Circuit Board|M3 x 8mm|6|Generic||
+|Double Sided Adhesive|||Generic||
 
 Note: the battery is necessary for operation.
 
@@ -47,6 +51,7 @@ Note: the battery is necessary for operation.
 
 ![Project Photo](Photos/gloves.jpg)
 ![Project Photo](Photos/gloves_detail.jpg)
+![Project Photo](Photos/glove_circuit_board.png)
 
 ## Build Steps
 1) You will need to send the Printed Circuit Board (PCB) design files to a manufacturer. I recommend having your circuit board assembled with all the components. Upload the Gerber file to the manufacturer (Glove_Hardware/Electronics/Glove_Gerber.zip).
@@ -90,6 +95,8 @@ Note: the battery is necessary for operation.
 
 # Editors
 You may edit the Electronic design files using a PCB editing software called easyEDA. This project can be accessed on EasyEDA at: https://pro.easyeda.com/editor#id=4203400eb7db434e9a89eb5de0ddfd4a
+
+The CAD files are in FreeCAD format and published in the /Control_Box and /Glove_Assembly folders.
 
 # Attribution
 
