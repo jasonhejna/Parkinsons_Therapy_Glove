@@ -117,6 +117,7 @@ void loop() {
       else{
         delayMicroseconds(1500000 - (799992 - cumulative_jitter)); // nominal 799992
       }
+      cumulative_jitter = 0; // Reset cumulative_jitter after handling the delay
     }
   }
   advance_finger();
